@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9c51bbc9-c89f-4cb2-abcd-bbd50c0266ec}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bece28ad-1ba6-435b-86a5-7bde17ec6546}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{161ed8fc-7fda-4553-9cbf-65baad46987e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Cipher">
+      <UniqueIdentifier>{acba27a4-f003-42ea-86c1-4935d7d6908d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Hash">
+      <UniqueIdentifier>{255a7b04-6e87-41f2-be2b-44292a54ac5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d7151094-8a6d-43cd-8bc0-d0ecdfebbe43}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BufCrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeeCryptLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomSrc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Cipher\aescrypt.c">
+      <Filter>Lib\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Cipher\aeskey.c">
+      <Filter>Lib\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Cipher\aestab.c">
+      <Filter>Lib\Cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Hash\sha2.cpp">
+      <Filter>Lib\Hash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Rsrc.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BufCrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeeCryptLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomSrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Cipher\aes.h">
+      <Filter>Lib\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Cipher\aesopt.h">
+      <Filter>Lib\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Cipher\aestab.h">
+      <Filter>Lib\Cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Hash\sha2.h">
+      <Filter>Lib\Hash</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
