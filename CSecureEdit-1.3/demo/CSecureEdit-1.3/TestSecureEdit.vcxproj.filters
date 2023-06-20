@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{896fa4fe-d38e-45dc-9f0a-d011cffe4e9a}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Demo Application">
+      <UniqueIdentifier>{bd0ff47e-f12f-4a0b-b670-e48f393e5ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SecureEdit">
+      <UniqueIdentifier>{91583431-a255-41bf-aae6-06a2eec528fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TestSecureEdit.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TestSecureEdit.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Demo Application</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Demo Application</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSecureEdit.h">
+      <Filter>Demo Application</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSecureEditDlg.h">
+      <Filter>Demo Application</Filter>
+    </ClInclude>
+    <ClInclude Include="SecureEdit.h">
+      <Filter>SecureEdit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Demo Application</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSecureEdit.cpp">
+      <Filter>Demo Application</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSecureEditDlg.cpp">
+      <Filter>Demo Application</Filter>
+    </ClCompile>
+    <ClCompile Include="SecureEdit.cpp">
+      <Filter>SecureEdit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestSecureEdit.rc">
+      <Filter>Demo Application</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
